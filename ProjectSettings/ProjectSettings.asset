@@ -141,7 +141,12 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+  - {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
+  - {fileID: 801056703735700921, guid: 3ec64067c95a51b43aee7375917de3f7, type: 2}
+  - {fileID: -5219479202222905134, guid: 9d45da2117fbd2f4ea27431964b5f000, type: 2}
+  - {fileID: 11400000, guid: 547451ea0a8fcd342be11f262ea96e5d, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -684,11 +689,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: MRTK-Tutorial
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 00b254e245eddc01
   metroApplicationDescription: MRTK Tutorial
   wsaImages: {}
   metroTileShortName: MRTK Tutorial
